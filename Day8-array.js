@@ -1,4 +1,4 @@
-
+// Methods of array
 //length
 let arr=[1,2,4,6,7];
 console.log(arr.length);
@@ -53,15 +53,15 @@ let arr10=[1,2,3,4,5,6];
 let res9=arr10.reverse();
 console.log(res9);
 
-//unshift
+//unshift()
 let arr11=[1,2,3,4,5,6];
 let res10=arr11.unshift(10);
 console.log(arr11);
 
-// //delete
-// let arr12=[1,2,3,4,5,6];
-// let res11=arr12.delete(arr12[4]);
-// console.log(arr12);
+//delete()
+ let arr12=[1,2,3,4,5,6];
+ let res11=arr12.delete(arr12[4]);
+console.log(arr12);
 
 //Example..........
 let arr13=["Hi", "Prepbytes"];
